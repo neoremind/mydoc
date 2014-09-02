@@ -33,10 +33,10 @@
 ```
 private static final String SERVER_IP = "127.0.0.1";
 ```
-* 第一点
-* 第二点
-* 第三点
-* 第四点
+- 第一点
+- 第二点
+- 第三点
+- 第四点
 
 1. 第一
 2. 第二
@@ -48,4 +48,4 @@ private static final String SERVER_IP = "127.0.0.1";
 
 
 图片
-![GitCafe Logo](https://github.com/neoremind/mydoc/image/gitlogo.png)
+![GitCafe Logo](https://github.com/neoremind/mydoc/blob/master/image/gitlogo.png)
