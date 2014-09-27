@@ -1,8 +1,4 @@
-#这里是README 
-:-)
-welcomE to neo's test here！
+# Mydoc 
+> Do something today that your future self will thank you for. 
 
-这里的todo1
-
-git add -A 全部放在暂存区
-
+在这大千世界上，总要记录点什么
