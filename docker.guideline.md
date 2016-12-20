@@ -30,6 +30,12 @@ $sudo docker run --name my-batch-job -d 77d3df7f5b2f /bin/sh -c "while true; do 
 
 $docker exec -it my-batch-job /bin/bash  //进入刚刚后台运行的docker
 
+$docker exec -d my-batch-job su product -c 'export HADOOP_CLIENT_OPTS=-Xmx6000m && bash -x /home/product/xxx.sh' // run a series of commands
+
+$sudo docker exec -d my-batch-job touch 123 // simple touch
+
+$sudo docker exec -it my-batch-job ps -ef // ps what's running inside the container
+
 ## Hub and registry
 
 $sudo docker push url/batch-job:xuzhang
