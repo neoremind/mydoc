@@ -58,6 +58,12 @@ docker rmi runoob/ubuntu:v4
 docker stop|start {CONTAINER_ID}
 ```
 
+- rm & kill
+```
+docker kill baca0db921f2
+docker rm baca0db921f2
+```
+
 - 列出容器
 ```
 docker ps -a
@@ -133,6 +139,14 @@ docker cp /www/runoob 96f7f14e99ab:/www
 
 将容器96f7f14e99ab的/www目录拷贝到主机的/tmp目录中。
 docker cp  96f7f14e99ab:/www /tmp/
+```
+
+- port
+
+```
+docker port e595279c91b3
+10911/tcp -> 0.0.0.0:10911
+10909/tcp -> 0.0.0.0:10909
 ```
 
 ## Hub and registry
